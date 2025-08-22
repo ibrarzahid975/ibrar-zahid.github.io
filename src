@@ -1,1 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ibrar Zahid — UI/UX & Frontend</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root { --bg:#0f172a; --fg:#e2e8f0; --muted:#94a3b8; --pill:#1e293b;}
+    *{box-sizing:border-box} body{margin:0;font-family:Inter,system-ui;background:var(--bg);color:var(--fg)}
+    .wrap{max-width:960px;margin:0 auto;padding:40px 20px}
+    .hero{padding:60px 20px}
+    h1{font-size:40px;line-height:1.1;margin:0 0 12px}
+    p{color:var(--muted);margin:0 0 24px}
+    .btn{display:inline-block;padding:12px 18px;border-radius:999px;background:var(--pill);text-decoration:none;color:var(--fg)}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:32px}
+    .card{padding:16px;border-radius:16px;background:#0b1222;border:1px solid #1f2a44}
+    .card h3{margin:0 0 8px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="hero">
+      <h1>Hi, I’m <strong>Ibrar Zahid</strong></h1>
+      <p>UI/UX Designer & Frontend Developer (4+ years). I design clean, user-friendly interfaces and build them with modern frontend stacks.</p>
+      <a class="btn" href="mailto:youremail@example.com">Contact Me</a>
+    </section>
+
+    <section>
+      <h2>Selected Work</h2>
+      <div class="grid">
+        <div class="card"><h3>Project One</h3><p>Web app UI → React build.</p></div>
+        <div class="card"><h3>Project Two</h3><p>Mobile app flows + prototype.</p></div>
+        <div class="card"><h3>Project Three</h3><p>Shopify storefront redesign.</p></div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
 
